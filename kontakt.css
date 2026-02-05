@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+}
+
+/* meny */
+.menu {
+  display: flex;
+  max-width: 1440px;
+  margin: 40px;
+  background: #f2f2f2;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+}
+  
+/* meny items */
+.item {
+  flex: 1;
+  text-align: center;
+  padding: 20px 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 22px;
+}
+
+/* active item */
+.active{
+  flex: 1;
+  text-align: center;
+  padding: 20px 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 22px;
+  background: #2f435f;
+  color: #fff;
+}
+
+/* container */
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* vänster text */
+.contact-info {
+  width: 500px;
+}
+
+.contact-info h1 {
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+.contact-info p {
+  font-size: 22px;
+  margin-bottom: 80px;
+}
+
+/* formulär */
+.contact-form {
+  width: 420px;
+  background: #e0e0e0;
+  padding: 27px;
+}
+
+.contact-form h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+button {
+  align-self: center;
+  padding: 6px 20px;
+  font-size: 16px;
+}
